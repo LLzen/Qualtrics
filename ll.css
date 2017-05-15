@@ -1,0 +1,159 @@
+
+#audioControls {
+    float: right;
+    cursor: pointer; 
+    cursor: hand;
+}
+
+#topBar {
+    padding: 1rem;
+    background-color:#ffffff;
+    color:#000000;
+}
+
+#toofastwarning {
+ 
+}
+
+#Buttons {
+
+    /*background-color:#F58426 !important; */
+}
+
+.checkbox {
+    opacity: 1 !important;
+    z-index:100 !important;
+    height:15px !important;
+    width:15px !important;
+    margin-top: 12px;
+    
+}
+
+
+.LabelWrapper, .MultipleAnswer {
+    padding-top:10px !important;
+    margin-left: 25px;
+}
+
+
+.LabelWrapper img, .MultipleAnswer img{
+    min-width: 100%;
+}
+
+.normalCheckbox {
+    opacity: 1;
+    z-index: 1;
+    height: 25px;
+    width: 25px;
+}
+
+
+#Wrapper {
+    font-family: 'Roboto', sans-serif;    
+}
+
+/* for when user is warned about a non answer */
+.Q_WindowHeaderInner h2, .Q_Window strong {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Skin .TE textarea:focus {
+    border-color: #086d95;
+}
+
+.Skin #Buttons #NextButton, .Skin #Buttons #PreviousButton {
+    background-color: #086d95;
+}
+
+.Skin #Buttons #NextButton:hover, .Skin #Buttons #PreviousButton:hover {
+    background-color: #c1d72f;
+}
+
+/* for when there is a validation error - e.g. if user has not answered but pushed the next button */
+.Skin .QuestionOuter.Highlight .Inner {
+    background: #ffffff !important;
+}
+
+.quote {
+    /*
+    border-left: #F58426;
+    border-left-width: 4px;
+    border-left-style: solid;
+    padding-left: 30px;
+    */
+    padding-left: 1rem;
+}
+
+/* this is for the horizontal scrolling issue on mcq when dimensions are small but not small enough for the vertical format to appear - it does affect text alignment but that is preferable to scrollbar */
+.ChoiceStructure {
+    table-layout: fixed;
+}
+
+.SingleAnswer.q-checked {
+    background:#086d95 !important;
+}
+
+.column {
+    width: 50%;
+    padding: 1rem;
+}
+
+.right {
+    float: right;
+}
+
+.cols2 {
+    margin-bottom:1rem;
+    display:flex;
+}
+
+.Button {
+    background-color:#086d95 !important;
+
+}
+
+.Skin label.MultipleAnswer.q-checked {
+    background: #086d95;
+}
+
+.Skin label.MultipleAnswer.q-checked.q-focused {
+    background: #086d95;
+}
+
+strong {
+    font-family: 'Signika', sans-serif;
+    font-size: 2.16rem;
+    color:#086d95;
+    display:block;
+    margin-bottom: 1rem;
+    line-height:2.4rem;
+}
+
+li {
+    display: list-item !important;
+}
+
+img {
+    max-width: 50%;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+u {
+    text-decoration: none;
+    font-weight:bold;
+}
+
+.big {
+    max-width: 100%;
+    padding: 0;
+
+}
+
+.multiChoiceImg {
+    max-width: 100%;
+    padding: 0;
+    min-width:600px !important;
+}
+
