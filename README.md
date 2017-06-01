@@ -2,8 +2,11 @@
 Responsive theme while attempting to look better that the original.
 
 In Qualtrics:
+
 Look & Feel -> Change theme -> 'Qualtrics 2014'.
+
 Page Transition : None
+
 PAGE TRANSITION MUST BE SET TO NONE!!!!!
 
 
