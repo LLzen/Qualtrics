@@ -26,3 +26,5 @@ Look & Feel -> Advanced -> Header EDIT :
 
 
 Have only tested with Qualtrics 2014.
+
+CHECK THE JS file for any other config bits!
